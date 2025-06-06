@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;                                /* fuente de letra */
+  background-color: #f4f4f4;                                   /* fondo semitransparente opcional */
+  margin: 0;                                                     /* espacio entre el texto y el borde */
+  padding: 40px;                                                 /* espacio entre el texto y el borde */
+}
+
+.formulario-contenedor {
+  max-width: 500px;                                              /* establece la altura del contenedor */
+  margin: auto;                                                  /* Elimina el espacio entre el texto y el borde */
+  background-color: #fff;                                      /* fondo semitransparente opcional */
+  padding: 30px;                                                 /* espacio entre el texto y el borde */
+  border-radius: 8px;                                            /* borde redondeado */
+  border: 1px solid #181823;                                   /* borde redondeado */
+}
+
+h2 {
+  text-align: center;                                            /* alinea el texto centrado */                                      
+  margin-bottom: 20px;                                           /* espacio entre el texto y el borde */ 
+}
+
+form label {
+  display: block;                                                /* coloca el texto en la parte superior */
+  margin-top: 15px;                                              /* espacio entre el texto y el borde */
+  font-weight: bold;                                             /* fuente de letra */   
+}
+
+form input, form textarea {
+  width: 100%;                                                   /* Establece el ancho del contenedor */
+  padding: 10px;                                                 /* espacio entre el texto y el borde */
+  margin-top: 5px;                                               /* espacio entre el texto y el borde */
+  border: 1px solid #ccc;                                      /* borde redondeado */
+  border-radius: 4px;                                            /* borde redondeado */
+  box-sizing: border-box;                                        /* borde redondeado */
+}
+
+button {
+  margin-top: 20px;                                              /* espacio entre el texto y el borde */
+  width: 100%;                                                   /* Establece el ancho del contenedor */
+  padding: 12px;                                                 /* espacio entre el texto y el borde */
+  background-color: #FC7300;                                   /* fondo semitransparente opcional */
+  color: #181823;                                              /* color de la fuente */
+  border: none;                                                  /* borde redondeado */
+  border-radius: 20px;                                           /* borde redondeado */
+  font-size: 16px;                                               /* tamaño de la fuente */
+  cursor: pointer;                                               /* alinea el contenedor a la izquierda */
+}
+
+button:hover {
+  background-color: #1F8A70;                                   /* fondo semitransparente opcional */
+}
