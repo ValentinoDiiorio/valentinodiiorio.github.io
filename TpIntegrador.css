@@ -47,7 +47,7 @@ h1{
 .bg{
   position: relative;                                                                /* posiciona el elemento en relación con el contenedor */
   height: 100vh;                                                                     /* establece la altura del elemento */
-  background-image: url('/Proyecto-Integrador-Web-UntrefSchool/istitucion.jpg');     /* establece la imagen como fondo del elemento */
+  background-image: url('/istitucion.jpg');                             /* establece la imagen como fondo del elemento */
   background-size: cover;                                                            /* establece el tamaño de la imagen como el tamaño del elemento */
   background-position: center;                                                       /* establece la posición de la imagen como el centro del elemento */
   display: flex;                                                                     /* establece la alineación de los elementos */
