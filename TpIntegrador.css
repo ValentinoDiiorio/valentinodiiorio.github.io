@@ -260,11 +260,11 @@ h1{
 
 .footer-column {                                               
   gap: 0px;                                                     /* Espacio entre columnas */
-  padding: px;                                                  /* espacio entre el texto y el borde */
+  padding: 10px;                                                  /* espacio entre el texto y el borde */
   width: 30%;                                                   /* Establece el ancho del contenedor */
    min-width: 220px;                                            /* Establece el ancho del contenedor */
   justify-content: center;                                      /* Centra el grupo de columnas */
-  width: 300px;                                                 /* Establece el ancho del contenedor */
+  width: 100px;                                                 /* Establece el ancho del contenedor */
 }
 
 .footer-column h3 {
